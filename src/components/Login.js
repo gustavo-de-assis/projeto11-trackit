@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import styled from "styled-components"
 import logo from "../assets/img/logo.png"
 
@@ -19,7 +20,8 @@ export default  function Login(){
                     />
                 <button type="submit">Entrar</button>
             </form>
-            
+            <Link to={"/cadastro"}>Não tem uma conta? Cadastre-se!</Link>
+
         </Container>
     )
 }
@@ -48,5 +50,10 @@ const Container = styled.div`
             background-color: #52B6FF;
             color: #fff;
         }
+    }
+    a{
+        text-decoration: underline;
+        color: #52B6FF;
+        margin-top: 50px;
     }
 `
