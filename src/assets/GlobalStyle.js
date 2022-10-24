@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700&display=swap');
+    
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
@@ -31,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
         width: 375px;
         height: 680px;
 
-        font-family: roboto;
+        font-family: 'Lexend Deca', sans-serif;
     }
     ol, ul {
         list-style: none;
