@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import { ThreeDots } from "react-loader-spinner"
 import { Link, useNavigate } from "react-router-dom"
 import styled from "styled-components"
-import logo from "../assets/img/logo.png"
+import logo from "../../assets/img/logo.png"
 
 
 export default function Cadastro() {
@@ -41,7 +41,7 @@ export default function Cadastro() {
         <ContainerCadastro>
             <img src={logo} alt="logo" />
 
-            <form onSubmit={realizaCadastro}>
+            <form onSubmit={realizaCadastro} disabled={sendInfo}>
                 <input
                     name="email"
                     value={userInfo.email}

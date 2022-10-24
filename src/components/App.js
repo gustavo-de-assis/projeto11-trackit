@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import GlobalStyle from "../assets/GlobalStyle";
-import Cadastro from "./Cadastro";
+import Cadastro from "./Home/Cadastro";
 import Habitos from "./Habitos";
 import Historico from "./Historico";
 import Hoje from "./Hoje";
-import Login from "./Login";
+import Login from "./Home/Login";
 
 
 export default function  App(){
